@@ -4,6 +4,8 @@
 
 An interactive, data-engineered forensic tool for visualizing and analyzing the flow of funds following the Kelp DAO exploit. This project demonstrates a complete data pipeline from raw Ethereum transaction data to a high-performance interactive visualization.
 
+🌐 **Live Dashboard**: [chaintrace](https://chaintrace-forensic.onrender.com/)
+
 ## 🚀 Project Overview
 
 This project serves as a forensic analysis platform to track the movement of stolen assets. It combines robust **Data Engineering** (PySpark batch processing) with a **State-of-the-art Frontend** (React + HTML5 Canvas) to provide an Arkham-style exploratory experience.
@@ -60,7 +62,8 @@ The entire project is containerized using a multi-stage Docker build to ensure i
    docker compose up --build
    ```
 3. **Access the Tool**:
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
+   - **Live Dashboard**: [https://chaintrace-forensic.onrender.com/](https://chaintrace-forensic.onrender.com/)
+   - **Local Instance**: Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
